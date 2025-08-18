@@ -6,7 +6,6 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Gloria Mutuyimana Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -15,7 +14,7 @@
 <div id="header">
     <div class="container">
         <nav>
-            <img src="photo/logo.png" alt="logo" class="logo">
+            <!-- <img src="photo/logo.png" alt="logo" class="logo"> -->
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -24,7 +23,7 @@
                 <li><a href="#contact">Contact</a></li>
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
-            <i class="fas fa-bars"  onclick="openmenu()"></i>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
             <p>UI/UX Designer</p>
@@ -48,7 +47,7 @@
                     I specialize in full-stack development, with expertise in HTML, CSS, and JavaScript for front-end
                     design, alongside backend technologies that ensure robust and seamless system performance.
                     <br><br>
-                    Currently, I am pursuing a Bachelor’s Degree in Business Information Technology at the University
+                    Currently, I am pursuing a Bachelor's Degree in Business Information Technology at the University
                     of Kigali, strengthening my expertise in software architecture, databases, and business-driven tech
                     solutions.
                     <br><br>
@@ -122,14 +121,19 @@
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="photo/Document1.png" alt="Documentation">
+                <a href="https://documentation2.netlify.app/" target="_blank">
+                    Documentation <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <img src="photo/documentation.png" alt="Documentation">
                 <div class="layer">
                     <h3>Documentation</h3>
                     <p>Describes web technologies like HTML and CSS.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="documentation"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
+                <a href="https://buildtribute.netlify.app//" target="_blank">
+                    Build Attribute <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 <img src="photo/buildattribute.jpg" alt="Build Attribute">
                 <div class="layer">
                     <h3>Build Attribute</h3>
@@ -138,7 +142,9 @@
                 </div>
             </div>
             <div class="work">
-                <img src="photo/survey.png" alt="Survey">
+                <a href="https://survey12.netlify.app/" target="_blank">
+                    Survey <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <img src="photo/296.jpg" alt="Survey">
                 <div class="layer">
                     <h3>Survey</h3>
                     <p>How to design and analyze digital surveys for UI feedback.</p>
@@ -146,45 +152,57 @@
                 </div>
             </div>
             <div class="work">
+                <a href="https://animations12.netlify.app/#" target="_blank">
+                    Animation <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
                 <img src="photo/animation.png" alt="Animation">
                 <div class="layer">
                     <h3>Animation</h3>
                     <p>CSS animations for better user experiences and interactive designs.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
         <a href="#" class="btn">See more</a>
     </div>
 </div>
-<!----------------contact------------->
+
 <div id="contact">
     <div class="container">
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>mutuyegloria@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>+250780263853</p>
+                <p>
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <a href="mailto:mutuyegloria@gmail.com">mutuyegloria@gmail.com</a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="https://wa.me/250780263853" target="_blank">+250 780 263 853</a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Kigali, Rwanda
+                </p>
                 <div class="social-icons">
                     <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/gloria-mutuyimana-18a769258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BMzQb6teLRgC%2BqreZ9TuhDQ%3D%3D">
+                        <i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <a href="photo/My-cv.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
                 <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="name" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
             </div>
         </div>
     </div>
     <div class="copyright">
-        <p>&copy; 2025 Gloria Mutuyimana. <i class="fa-solid fa-heart"></i>All rights reserved.</p>
-
+        <p>&copy; 2024 Gloria Mutuyimana. <i class="fa-solid fa-heart"></i> All rights reserved.</p>
     </div>
 </div>
 
@@ -204,13 +222,28 @@
     }
 </script>
 <script>
-    var sidemenu=document.getElementById("sidemenu");
-    function openmenu(){
-        sidemenu.style.right="0";
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right = "0";
     }
-    function closemenu(){
-        closemenu().style.left="0";
+    function closemenu() {
+        sidemenu.style.right = "-200px";
     }
+    (function() {
+  emailjs.init("Q456E0iBwVzlF_tBZ"); // <-- YOUR_PUBLIC_KEY
+})();
+
+document.getElementById("contact").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  emailjs.sendForm("service_of9o7f6", "template_i5iwudr", this)
+    .then(() => {
+      alert("Message sent successfully!");
+    }, (error) => {
+      alert("Failed to send message: " + error.text);
+    });
+});
+
 </script>
 </body>
 </html>
